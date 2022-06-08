@@ -1,5 +1,5 @@
 <template>
-    <div class="container ">
+    <div class="container md:px-4">
         <nav aria-label="breadcrumb" class="w-full p-4 bg-gray-100 text-gray-800">
                 <ol class="flex h-8 space-x-2">
                     <li class="flex items-center">
@@ -20,34 +20,29 @@
 
                 </ol>
             </nav>
-        <div class="p-4 h-8 space-y-2 text-2xl ">
-            <h1>Хууль</h1>
-        </div>
-        <div class="flex flex-row xs:py-5 md:py-10 space-y-2">
-                <div class="flex xs:w-5 md:w-10 justify-center self-center ">
-                    <svg class="h-5 w-5" viewBox="0 0 36 36" version="1.1"  preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <title>date-line</title>
-                        <path class="clr-i-outline clr-i-outline-path-1" d="M32.25,6H29V8h3V30H4V8H7V6H3.75A1.78,1.78,0,0,0,2,7.81V30.19A1.78,1.78,0,0,0,3.75,32h28.5A1.78,1.78,0,0,0,34,30.19V7.81A1.78,1.78,0,0,0,32.25,6Z"></path><rect class="clr-i-outline clr-i-outline-path-2" x="8" y="14" width="2" height="2"></rect><rect class="clr-i-outline clr-i-outline-path-3" x="14" y="14" width="2" height="2"></rect><rect class="clr-i-outline clr-i-outline-path-4" x="20" y="14" width="2" height="2"></rect><rect class="clr-i-outline clr-i-outline-path-5" x="26" y="14" width="2" height="2"></rect><rect class="clr-i-outline clr-i-outline-path-6" x="8" y="19" width="2" height="2"></rect><rect class="clr-i-outline clr-i-outline-path-7" x="14" y="19" width="2" height="2"></rect><rect class="clr-i-outline clr-i-outline-path-8" x="20" y="19" width="2" height="2"></rect><rect class="clr-i-outline clr-i-outline-path-9" x="26" y="19" width="2" height="2"></rect><rect class="clr-i-outline clr-i-outline-path-10" x="8" y="24" width="2" height="2"></rect><rect class="clr-i-outline clr-i-outline-path-11" x="14" y="24" width="2" height="2"></rect><rect class="clr-i-outline clr-i-outline-path-12" x="20" y="24" width="2" height="2"></rect><rect class="clr-i-outline clr-i-outline-path-13" x="26" y="24" width="2" height="2"></rect><path class="clr-i-outline clr-i-outline-path-14" d="M10,10a1,1,0,0,0,1-1V3A1,1,0,0,0,9,3V9A1,1,0,0,0,10,10Z"></path><path class="clr-i-outline clr-i-outline-path-15" d="M26,10a1,1,0,0,0,1-1V3a1,1,0,0,0-2,0V9A1,1,0,0,0,26,10Z"></path><rect class="clr-i-outline clr-i-outline-path-16" x="13" y="6" width="10" height="2"></rect>
-                        <rect x="0" y="0" width="36" height="36" fill-opacity="0"/>
-                    </svg>
+
+        <div class="grid md:grid-cols-3 gap-4 sm:grid-cols-1">
+            <div class="lg:col-span-2 md:col-span-2 pt-8">
+                <h2 class="text-3xl font-semibold">
+                    Хууль
+                </h2>
+                <div class="flex flex-row py-4 ">
+                        <div class="flex xs:w-5 md:w-10 justify-center self-center ">
+                            <svg class="h-5 w-5" viewBox="0 0 36 36" version="1.1"  preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <title>date-line</title>
+                                <path class="clr-i-outline clr-i-outline-path-1" d="M32.25,6H29V8h3V30H4V8H7V6H3.75A1.78,1.78,0,0,0,2,7.81V30.19A1.78,1.78,0,0,0,3.75,32h28.5A1.78,1.78,0,0,0,34,30.19V7.81A1.78,1.78,0,0,0,32.25,6Z"></path><rect class="clr-i-outline clr-i-outline-path-2" x="8" y="14" width="2" height="2"></rect><rect class="clr-i-outline clr-i-outline-path-3" x="14" y="14" width="2" height="2"></rect><rect class="clr-i-outline clr-i-outline-path-4" x="20" y="14" width="2" height="2"></rect><rect class="clr-i-outline clr-i-outline-path-5" x="26" y="14" width="2" height="2"></rect><rect class="clr-i-outline clr-i-outline-path-6" x="8" y="19" width="2" height="2"></rect><rect class="clr-i-outline clr-i-outline-path-7" x="14" y="19" width="2" height="2"></rect><rect class="clr-i-outline clr-i-outline-path-8" x="20" y="19" width="2" height="2"></rect><rect class="clr-i-outline clr-i-outline-path-9" x="26" y="19" width="2" height="2"></rect><rect class="clr-i-outline clr-i-outline-path-10" x="8" y="24" width="2" height="2"></rect><rect class="clr-i-outline clr-i-outline-path-11" x="14" y="24" width="2" height="2"></rect><rect class="clr-i-outline clr-i-outline-path-12" x="20" y="24" width="2" height="2"></rect><rect class="clr-i-outline clr-i-outline-path-13" x="26" y="24" width="2" height="2"></rect><path class="clr-i-outline clr-i-outline-path-14" d="M10,10a1,1,0,0,0,1-1V3A1,1,0,0,0,9,3V9A1,1,0,0,0,10,10Z"></path><path class="clr-i-outline clr-i-outline-path-15" d="M26,10a1,1,0,0,0,1-1V3a1,1,0,0,0-2,0V9A1,1,0,0,0,26,10Z"></path><rect class="clr-i-outline clr-i-outline-path-16" x="13" y="6" width="10" height="2"></rect>
+                                <rect x="0" y="0" width="36" height="36" fill-opacity="0"/>
+                            </svg>
+                        </div>
+                        <p class="text-gray-500 xs:text-sm md:text-xs">
+                            <!--  {{date}} -->
+                            2022.06.06
+                        </p>
                 </div>
-                <p class="text-gray-500 xs:text-sm md:text-xs">
-                    <!--  {{date}} -->
-                    2022.06.06
-                </p>
-        </div>
-        <div class="grid">
-            <div class="lg:col-span-9 md:col-span-7 sm:col-span-12">
-                <div class="overflow-x-auto">
-                    <table class="min-w-full text-sm border border-gray-100 divide-y-2 divide-gray-200">
-                        <thead>
-                        <tr class="divide-x divide-gray-100">
-                            <th class="px-4 py-2 font-medium text-left text-gray-900 whitespace-nowrap">Name</th>
-                            <th class="px-4 py-2 font-medium text-left text-gray-900 whitespace-nowrap">Date of Birth</th>
-                            <th class="px-4 py-2 font-medium text-left text-gray-900 whitespace-nowrap">Role</th>
-                            <th class="px-4 py-2 font-medium text-left text-gray-900 whitespace-nowrap">Salary</th>
-                        </tr>
-                        </thead>
+                <div class="flex-grow border-t border-gray-400 py-4"></div>
+                <div class="overflow-x-auto ">
+                    <p class="mb-3">Монголын Гидрогеологийн Холбоотой холбоо бүхий хуулийн жагсаалт:</p>
+                    <table class="min-w-full text-sm border border-gray-100 divide-y-2 divide-gray-200 ">
 
                         <tbody class="divide-y divide-gray-200">
                         <tr class="divide-x divide-gray-100">
@@ -74,7 +69,21 @@
                     </table>
                 </div>
             </div>
+            <div class="lg:col-span-1 hidden md:block md:col-start-3 p-8 w-full rounded-lg">
+                <homeSidebarVue/>
+
+            </div>
 
         </div>
     </div>
 </template>
+
+<script>
+import homeSidebarVue from '../components/homeSidebar.vue'
+export default {
+    components: {
+        homeSidebarVue,
+
+    },
+}
+</script>

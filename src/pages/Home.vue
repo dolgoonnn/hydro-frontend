@@ -5,7 +5,10 @@
     <div class="sm:container mx-auto">
         <div class="grid grid-cols-3 gap-4  ">
             <Post/>
-            <homeSidebarVue/>
+            <div
+                class="lg:col-span-1 hidden md:block md:col-start-3 p-8 w-full rounded-lg">
+                <homeSidebarVue/>
+            </div>
         </div>
 
     </div>
