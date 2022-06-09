@@ -74,7 +74,7 @@
                               C255,161.018,253.42,157.202,250.606,154.389z"
                 />
               </svg>
-              <span class="ml-3">Dashboard</span>
+              <span class="ml-3">ном хэвлэл</span>
             </a>
           </li>
           <li>
@@ -102,7 +102,7 @@
                               C255,161.018,253.42,157.202,250.606,154.389z"
                 />
               </svg>
-              <span class="ml-3">Dashboard</span>
+              <span class="ml-3">Сургалт</span>
             </a>
           </li>
           <li>
@@ -130,7 +130,7 @@
                               C255,161.018,253.42,157.202,250.606,154.389z"
                 />
               </svg>
-              <span class="ml-3">Dashboard</span>
+              <span class="ml-3">мэдээлэл</span>
             </a>
           </li>
           <li>
