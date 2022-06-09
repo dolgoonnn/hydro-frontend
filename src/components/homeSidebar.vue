@@ -301,9 +301,9 @@
       class="grid grid-cols-1 overflow-hidden border border-gray-100 bg-white rounded-lg group sm:grid-cols-3 mt-8 h-48"
       href=""
     >
-      <div class="relative">
+      <div class="relative ">
         <img
-          class="pt-4 object-center w-full h-auto"
+          class="align-middle object-center  w-full h-auto"
           src="https://www.hyperui.dev/photos/activity-1.jpeg"
           alt=""
         />

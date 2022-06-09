@@ -1,5 +1,5 @@
 <template>
-	<section class="p-6 dark:bg-gray-800 dark:text-gray-100">
+	<section class="p-6 dark:bg-cindigo dark:text-gray-100">
 		<div class="container p-4 mx-auto text-center">
 			<h2 class="text-4xl font-bold">Trusted by the industry leaders</h2>
 		</div>

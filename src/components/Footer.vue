@@ -1,28 +1,174 @@
 <template>
 	<footer class="px-4 divide-y bg-gray-100 text-gray-800">
-		<div class="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
-			<div class="lg:w-1/3">
+		<div class="container  justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
+			<!-- <div class="lg:w-1/3">
 				<a rel="noopener noreferrer" href="#" class="flex justify-center space-x-3 lg:justify-start">
-					<div class="flex items-center justify-center w-12 h-12">
-						<!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" class="flex-shrink-0 w-5 h-5 rounded-full text-gray-50">
-							<path d="M18.266 26.068l7.839-7.854 4.469 4.479c1.859 1.859 1.859 4.875 0 6.734l-1.104 1.104c-1.859 1.865-4.875 1.865-6.734 0zM30.563 2.531l-1.109-1.104c-1.859-1.859-4.875-1.859-6.734 0l-6.719 6.734-6.734-6.734c-1.859-1.859-4.875-1.859-6.734 0l-1.104 1.104c-1.859 1.859-1.859 4.875 0 6.734l6.734 6.734-6.734 6.734c-1.859 1.859-1.859 4.875 0 6.734l1.104 1.104c1.859 1.859 4.875 1.859 6.734 0l21.307-21.307c1.859-1.859 1.859-4.875 0-6.734z"></path>
-						</svg> -->
-						<img src="../assets/logo.png" alt="logo">
+					<div class="flex items-center justify-center ">
+
+						<img src="../assets/logo.png" alt="logo" class="h-40 w-auto ">
+						<p class="text-xs">Монголын Гидрогеологичдын Холбоо нь Монгол Улсын гидрогеологичдын нэгтгэх,
+							 Монгол Улсын Гидрогеологийн салбарын хөгжлийг олон улсын түвшинд хүргэх, тус салбарыг тэргүүлэх салбар болгон хөгжүүлэх зорилгоор 2011 онд байгуулагдсан.</p>
 					</div>
 
 				</a>
 
-			</div>
-			<div class="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-3">
-
+			</div> -->
+			<div class="grid grid-cols-2 text-sm gap-x-3 gap-y-8  lg:grid-cols-4 md:grid-cols-2">
 				<div class="space-y-3">
-					<h3 class="tracking-wide uppercase text-gray-900">Company</h3>
+					<a rel="noopener noreferrer" href="#" class="flex justify-center space-x-3 lg:justify-start">
+					<div class="flex items-center justify-center ">
+						<!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" class="flex-shrink-0 w-5 h-5 rounded-full text-gray-50">
+							<path d="M18.266 26.068l7.839-7.854 4.469 4.479c1.859 1.859 1.859 4.875 0 6.734l-1.104 1.104c-1.859 1.865-4.875 1.865-6.734 0zM30.563 2.531l-1.109-1.104c-1.859-1.859-4.875-1.859-6.734 0l-6.719 6.734-6.734-6.734c-1.859-1.859-4.875-1.859-6.734 0l-1.104 1.104c-1.859 1.859-1.859 4.875 0 6.734l6.734 6.734-6.734 6.734c-1.859 1.859-1.859 4.875 0 6.734l1.104 1.104c1.859 1.859 4.875 1.859 6.734 0l21.307-21.307c1.859-1.859 1.859-4.875 0-6.734z"></path>
+						</svg> -->
+						<img src="../assets/logo.png" alt="logo" class="justify-items-center">
+						<!-- <p class="text-xs">Монголын Гидрогеологичдын Холбоо нь Монгол Улсын гидрогеологичдын нэгтгэх,
+							 Монгол Улсын Гидрогеологийн салбарын хөгжлийг олон улсын түвшинд хүргэх, тус салбарыг тэргүүлэх салбар болгон хөгжүүлэх зорилгоор 2011 онд байгуулагдсан.</p> -->
+					</div>
+
+				</a>
+				</div>
+				<div class="space-y-3">
+					<h3 class="tracking-wide uppercase text-gray-900 pb-4">Үндсэн цэс</h3>
 					<ul class="space-y-1">
 						<li>
-							<a rel="noopener noreferrer" href="#">Privacy</a>
+							<a
+							href="#"
+							class="flex items-center pb-2 font-normal text-gray-900 rounded-lg hover:text-ccblue hover:fill-ccblue"
+							>
+							<svg
+								class="w-3 h-3 flex-shrink-0"
+								version="1.1"
+								id="Layer_1"
+								xmlns="http://www.w3.org/2000/svg"
+								xmlns:xlink="http://www.w3.org/1999/xlink"
+								x="0px"
+								y="0px"
+								viewBox="0 0 330 330"
+								style="enable-background: new 0 0 330 330"
+								xml:space="preserve"
+							>
+								<path
+								id="XMLID_222_"
+								d="M250.606,154.389l-150-149.996c-5.857-5.858-15.355-5.858-21.213,0.001
+											c-5.857,5.858-5.857,15.355,0.001,21.213l139.393,139.39L79.393,304.394c-5.857,5.858-5.857,15.355,0.001,21.213
+											C82.322,328.536,86.161,330,90,330s7.678-1.464,10.607-4.394l149.999-150.004c2.814-2.813,4.394-6.628,4.394-10.606
+											C255,161.018,253.42,157.202,250.606,154.389z"
+								/>
+							</svg>
+							<span class="ml-3">Dashboard</span>
+							</a>
 						</li>
 						<li>
-							<a rel="noopener noreferrer" href="#">Terms of Service</a>
+							<a
+							href="#"
+							class="flex items-center pb-2 font-normal text-gray-900 rounded-lg hover:text-ccblue hover:fill-ccblue"
+							>
+							<svg
+								class="w-3 h-3 flex-shrink-0"
+								version="1.1"
+								id="Layer_1"
+								xmlns="http://www.w3.org/2000/svg"
+								xmlns:xlink="http://www.w3.org/1999/xlink"
+								x="0px"
+								y="0px"
+								viewBox="0 0 330 330"
+								style="enable-background: new 0 0 330 330"
+								xml:space="preserve"
+							>
+								<path
+								id="XMLID_222_"
+								d="M250.606,154.389l-150-149.996c-5.857-5.858-15.355-5.858-21.213,0.001
+											c-5.857,5.858-5.857,15.355,0.001,21.213l139.393,139.39L79.393,304.394c-5.857,5.858-5.857,15.355,0.001,21.213
+											C82.322,328.536,86.161,330,90,330s7.678-1.464,10.607-4.394l149.999-150.004c2.814-2.813,4.394-6.628,4.394-10.606
+											C255,161.018,253.42,157.202,250.606,154.389z"
+								/>
+							</svg>
+							<span class="ml-3">Dashboard</span>
+							</a>
+						</li>
+						<li>
+							<a
+							href="#"
+							class="flex items-center pb-2 font-normal text-gray-900 rounded-lg hover:text-ccblue hover:fill-ccblue"
+							>
+							<svg
+								class="w-3 h-3 flex-shrink-0"
+								version="1.1"
+								id="Layer_1"
+								xmlns="http://www.w3.org/2000/svg"
+								xmlns:xlink="http://www.w3.org/1999/xlink"
+								x="0px"
+								y="0px"
+								viewBox="0 0 330 330"
+								style="enable-background: new 0 0 330 330"
+								xml:space="preserve"
+							>
+								<path
+								id="XMLID_222_"
+								d="M250.606,154.389l-150-149.996c-5.857-5.858-15.355-5.858-21.213,0.001
+											c-5.857,5.858-5.857,15.355,0.001,21.213l139.393,139.39L79.393,304.394c-5.857,5.858-5.857,15.355,0.001,21.213
+											C82.322,328.536,86.161,330,90,330s7.678-1.464,10.607-4.394l149.999-150.004c2.814-2.813,4.394-6.628,4.394-10.606
+											C255,161.018,253.42,157.202,250.606,154.389z"
+								/>
+							</svg>
+							<span class="ml-3">Dashboard</span>
+							</a>
+						</li>
+						<li>
+							<a
+							href="#"
+							class="flex items-center pb-2 font-normal text-gray-900 rounded-lg hover:text-ccblue hover:fill-ccblue"
+							>
+							<svg
+								class="w-3 h-3 flex-shrink-0"
+								version="1.1"
+								id="Layer_1"
+								xmlns="http://www.w3.org/2000/svg"
+								xmlns:xlink="http://www.w3.org/1999/xlink"
+								x="0px"
+								y="0px"
+								viewBox="0 0 330 330"
+								style="enable-background: new 0 0 330 330"
+								xml:space="preserve"
+							>
+								<path
+								id="XMLID_222_"
+								d="M250.606,154.389l-150-149.996c-5.857-5.858-15.355-5.858-21.213,0.001
+											c-5.857,5.858-5.857,15.355,0.001,21.213l139.393,139.39L79.393,304.394c-5.857,5.858-5.857,15.355,0.001,21.213
+											C82.322,328.536,86.161,330,90,330s7.678-1.464,10.607-4.394l149.999-150.004c2.814-2.813,4.394-6.628,4.394-10.606
+											C255,161.018,253.42,157.202,250.606,154.389z"
+								/>
+							</svg>
+							<span class="ml-3">Dashboard</span>
+							</a>
+						</li>
+						<li>
+							<a
+							href="#"
+							class="flex items-center pb-2 font-normal text-gray-900 rounded-lg hover:text-ccblue hover:fill-ccblue"
+							>
+							<svg
+								class="w-3 h-3 flex-shrink-0"
+								version="1.1"
+								id="Layer_1"
+								xmlns="http://www.w3.org/2000/svg"
+								xmlns:xlink="http://www.w3.org/1999/xlink"
+								x="0px"
+								y="0px"
+								viewBox="0 0 330 330"
+								style="enable-background: new 0 0 330 330"
+								xml:space="preserve"
+							>
+								<path
+								id="XMLID_222_"
+								d="M250.606,154.389l-150-149.996c-5.857-5.858-15.355-5.858-21.213,0.001
+											c-5.857,5.858-5.857,15.355,0.001,21.213l139.393,139.39L79.393,304.394c-5.857,5.858-5.857,15.355,0.001,21.213
+											C82.322,328.536,86.161,330,90,330s7.678-1.464,10.607-4.394l149.999-150.004c2.814-2.813,4.394-6.628,4.394-10.606
+											C255,161.018,253.42,157.202,250.606,154.389z"
+								/>
+							</svg>
+							<span class="ml-3">Dashboard</span>
+							</a>
 						</li>
 					</ul>
 				</div>

@@ -1,9 +1,11 @@
 <template>
 
     <div class="lg:col-span-2 xs:col-span-3 md:col-span-2 pt-8">
+        <h2 class="pb-8 pl-4 text-2xl font-semibold">
+                Мэдээ
+            </h2>
 
-
-        <div class="grid justify-center grid-cols-1 gap-6 sm:grid-cols-1 lg:grid-cols-2">
+        <div class="grid justify-center gap-6 sm:grid-cols-1 lg:grid-cols-2">
 
             <div class="w-96 mx-auto px-8">
                 <a
@@ -29,7 +31,7 @@
                         <div
                         class="inline-block pb-1 mt-4 font-medium text-blue-600 border-b border-blue-500 "
                         >
-                        Find out more
+                        Дэлгэрэнгүй
                         <span aria-hidden="true">&rarr;</span>
                         </div>
                     </div>
