@@ -116,7 +116,7 @@
                       <MenuItem>
                         <router-link to="/Membership">
                           <a class="text-gray-500 hover:text-ccblue block px-4 py-2 text-sm">
-                            Гишүүншчлэл
+                            Гишүүнчлэл
                           </a>
                         </router-link>
                       </MenuItem>
@@ -167,7 +167,7 @@
                       <MenuItem>
                         <router-link to="/">
                           <a class="text-gray-500 hover:text-ccblue block px-4 py-2 text-sm">
-                            Дүрэм
+                            Журам
                           </a>
                         </router-link>
                       </MenuItem>
