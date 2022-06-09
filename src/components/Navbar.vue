@@ -307,7 +307,7 @@
                       <MenuItem>
                         <router-link to="/law ">
                           <a class="text-gray-500 hover:text-ccblue block px-4 py-2 text-sm">
-                            Дүрэм
+                            Журам
                           </a>
                         </router-link>
                       </MenuItem>
