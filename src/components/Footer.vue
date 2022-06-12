@@ -1,213 +1,336 @@
 <template>
-	<footer class="px-4 divide-y bg-gray-100 text-gray-800">
-		<div class="container  justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
-			<!-- <div class="lg:w-1/3">
-				<a rel="noopener noreferrer" href="#" class="flex justify-center space-x-3 lg:justify-start">
-					<div class="flex items-center justify-center ">
-
-						<img src="../assets/logo.png" alt="logo" class="h-40 w-auto ">
-						<p class="text-xs">Монголын Гидрогеологичдын Холбоо нь Монгол Улсын гидрогеологичдын нэгтгэх,
-							 Монгол Улсын Гидрогеологийн салбарын хөгжлийг олон улсын түвшинд хүргэх, тус салбарыг тэргүүлэх салбар болгон хөгжүүлэх зорилгоор 2011 онд байгуулагдсан.</p>
-					</div>
-
-				</a>
-
-			</div> -->
-			<div class="grid grid-cols-2 text-sm gap-x-3 gap-y-8  lg:grid-cols-4 md:grid-cols-2">
-				<div class="space-y-3">
-					<a rel="noopener noreferrer" href="#" class="flex justify-center space-x-3 lg:justify-start">
-					<div class="flex items-center justify-center ">
-						<!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" class="flex-shrink-0 w-5 h-5 rounded-full text-gray-50">
-							<path d="M18.266 26.068l7.839-7.854 4.469 4.479c1.859 1.859 1.859 4.875 0 6.734l-1.104 1.104c-1.859 1.865-4.875 1.865-6.734 0zM30.563 2.531l-1.109-1.104c-1.859-1.859-4.875-1.859-6.734 0l-6.719 6.734-6.734-6.734c-1.859-1.859-4.875-1.859-6.734 0l-1.104 1.104c-1.859 1.859-1.859 4.875 0 6.734l6.734 6.734-6.734 6.734c-1.859 1.859-1.859 4.875 0 6.734l1.104 1.104c1.859 1.859 4.875 1.859 6.734 0l21.307-21.307c1.859-1.859 1.859-4.875 0-6.734z"></path>
-						</svg> -->
-						<img src="../assets/logo.png" alt="logo" class="justify-items-center">
-						<!-- <p class="text-xs">Монголын Гидрогеологичдын Холбоо нь Монгол Улсын гидрогеологичдын нэгтгэх,
+  <footer class="px-4 divide-y bg-gray-100 text-gray-800">
+    <div
+      class="container justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0"
+    >
+      <div
+        class="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:grid-cols-4 md:grid-cols-2 md:justify-center"
+      >
+        <div class="space-y-3">
+          <a
+            rel="noopener noreferrer"
+            href="#"
+            class="flex space-x-3 justify-start"
+          >
+            <div class="flex">
+              <img src="../assets/logod.png" alt="logo" class="h-48" />
+              <!-- <p class="text-xs">Монголын Гидрогеологичдын Холбоо нь Монгол Улсын гидрогеологичдын нэгтгэх,
 							 Монгол Улсын Гидрогеологийн салбарын хөгжлийг олон улсын түвшинд хүргэх, тус салбарыг тэргүүлэх салбар болгон хөгжүүлэх зорилгоор 2011 онд байгуулагдсан.</p> -->
-					</div>
-
-				</a>
-				</div>
-				<div class="space-y-3">
-					<h3 class="tracking-wide uppercase text-gray-900 pb-4">Үндсэн цэс</h3>
-					<ul class="space-y-1">
-						<li>
-							<a
-							href="#"
-							class="flex items-center pb-2 font-normal text-gray-900 rounded-lg hover:text-ccblue hover:fill-ccblue"
-							>
-							<svg
-								class="w-3 h-3 flex-shrink-0"
-								version="1.1"
-								id="Layer_1"
-								xmlns="http://www.w3.org/2000/svg"
-								xmlns:xlink="http://www.w3.org/1999/xlink"
-								x="0px"
-								y="0px"
-								viewBox="0 0 330 330"
-								style="enable-background: new 0 0 330 330"
-								xml:space="preserve"
-							>
-								<path
-								id="XMLID_222_"
-								d="M250.606,154.389l-150-149.996c-5.857-5.858-15.355-5.858-21.213,0.001
+            </div>
+          </a>
+        </div>
+        <div class="space-y-3">
+          <h3 class="tracking-wide uppercase text-gray-900 pb-3">Үндсэн цэс</h3>
+          <ul class="space-y-1">
+            <li>
+              <a
+                href="#"
+                class="flex items-center pb-2 font-normal text-gray-900 rounded-lg hover:text-ccblue hover:fill-ccblue"
+              >
+                <svg
+                  class="w-3 h-3 flex-shrink-0"
+                  version="1.1"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  x="0px"
+                  y="0px"
+                  viewBox="0 0 330 330"
+                  style="enable-background: new 0 0 330 330"
+                  xml:space="preserve"
+                >
+                  <path
+                    id="XMLID_222_"
+                    d="M250.606,154.389l-150-149.996c-5.857-5.858-15.355-5.858-21.213,0.001
 											c-5.857,5.858-5.857,15.355,0.001,21.213l139.393,139.39L79.393,304.394c-5.857,5.858-5.857,15.355,0.001,21.213
 											C82.322,328.536,86.161,330,90,330s7.678-1.464,10.607-4.394l149.999-150.004c2.814-2.813,4.394-6.628,4.394-10.606
 											C255,161.018,253.42,157.202,250.606,154.389z"
-								/>
-							</svg>
-							<span class="ml-3">Dashboard</span>
-							</a>
-						</li>
-						<li>
-							<a
-							href="#"
-							class="flex items-center pb-2 font-normal text-gray-900 rounded-lg hover:text-ccblue hover:fill-ccblue"
-							>
-							<svg
-								class="w-3 h-3 flex-shrink-0"
-								version="1.1"
-								id="Layer_1"
-								xmlns="http://www.w3.org/2000/svg"
-								xmlns:xlink="http://www.w3.org/1999/xlink"
-								x="0px"
-								y="0px"
-								viewBox="0 0 330 330"
-								style="enable-background: new 0 0 330 330"
-								xml:space="preserve"
-							>
-								<path
-								id="XMLID_222_"
-								d="M250.606,154.389l-150-149.996c-5.857-5.858-15.355-5.858-21.213,0.001
+                  />
+                </svg>
+                <span class="ml-3">Dashboard</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="flex items-center pb-2 font-normal text-gray-900 rounded-lg hover:text-ccblue hover:fill-ccblue"
+              >
+                <svg
+                  class="w-3 h-3 flex-shrink-0"
+                  version="1.1"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  x="0px"
+                  y="0px"
+                  viewBox="0 0 330 330"
+                  style="enable-background: new 0 0 330 330"
+                  xml:space="preserve"
+                >
+                  <path
+                    id="XMLID_222_"
+                    d="M250.606,154.389l-150-149.996c-5.857-5.858-15.355-5.858-21.213,0.001
 											c-5.857,5.858-5.857,15.355,0.001,21.213l139.393,139.39L79.393,304.394c-5.857,5.858-5.857,15.355,0.001,21.213
 											C82.322,328.536,86.161,330,90,330s7.678-1.464,10.607-4.394l149.999-150.004c2.814-2.813,4.394-6.628,4.394-10.606
 											C255,161.018,253.42,157.202,250.606,154.389z"
-								/>
-							</svg>
-							<span class="ml-3">Dashboard</span>
-							</a>
-						</li>
-						<li>
-							<a
-							href="#"
-							class="flex items-center pb-2 font-normal text-gray-900 rounded-lg hover:text-ccblue hover:fill-ccblue"
-							>
-							<svg
-								class="w-3 h-3 flex-shrink-0"
-								version="1.1"
-								id="Layer_1"
-								xmlns="http://www.w3.org/2000/svg"
-								xmlns:xlink="http://www.w3.org/1999/xlink"
-								x="0px"
-								y="0px"
-								viewBox="0 0 330 330"
-								style="enable-background: new 0 0 330 330"
-								xml:space="preserve"
-							>
-								<path
-								id="XMLID_222_"
-								d="M250.606,154.389l-150-149.996c-5.857-5.858-15.355-5.858-21.213,0.001
+                  />
+                </svg>
+                <span class="ml-3">Dashboard</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="flex items-center pb-2 font-normal text-gray-900 rounded-lg hover:text-ccblue hover:fill-ccblue"
+              >
+                <svg
+                  class="w-3 h-3 flex-shrink-0"
+                  version="1.1"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  x="0px"
+                  y="0px"
+                  viewBox="0 0 330 330"
+                  style="enable-background: new 0 0 330 330"
+                  xml:space="preserve"
+                >
+                  <path
+                    id="XMLID_222_"
+                    d="M250.606,154.389l-150-149.996c-5.857-5.858-15.355-5.858-21.213,0.001
 											c-5.857,5.858-5.857,15.355,0.001,21.213l139.393,139.39L79.393,304.394c-5.857,5.858-5.857,15.355,0.001,21.213
 											C82.322,328.536,86.161,330,90,330s7.678-1.464,10.607-4.394l149.999-150.004c2.814-2.813,4.394-6.628,4.394-10.606
 											C255,161.018,253.42,157.202,250.606,154.389z"
-								/>
-							</svg>
-							<span class="ml-3">Dashboard</span>
-							</a>
-						</li>
-						<li>
-							<a
-							href="#"
-							class="flex items-center pb-2 font-normal text-gray-900 rounded-lg hover:text-ccblue hover:fill-ccblue"
-							>
-							<svg
-								class="w-3 h-3 flex-shrink-0"
-								version="1.1"
-								id="Layer_1"
-								xmlns="http://www.w3.org/2000/svg"
-								xmlns:xlink="http://www.w3.org/1999/xlink"
-								x="0px"
-								y="0px"
-								viewBox="0 0 330 330"
-								style="enable-background: new 0 0 330 330"
-								xml:space="preserve"
-							>
-								<path
-								id="XMLID_222_"
-								d="M250.606,154.389l-150-149.996c-5.857-5.858-15.355-5.858-21.213,0.001
+                  />
+                </svg>
+                <span class="ml-3">Dashboard</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="flex items-center pb-2 font-normal text-gray-900 rounded-lg hover:text-ccblue hover:fill-ccblue"
+              >
+                <svg
+                  class="w-3 h-3 flex-shrink-0"
+                  version="1.1"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  x="0px"
+                  y="0px"
+                  viewBox="0 0 330 330"
+                  style="enable-background: new 0 0 330 330"
+                  xml:space="preserve"
+                >
+                  <path
+                    id="XMLID_222_"
+                    d="M250.606,154.389l-150-149.996c-5.857-5.858-15.355-5.858-21.213,0.001
 											c-5.857,5.858-5.857,15.355,0.001,21.213l139.393,139.39L79.393,304.394c-5.857,5.858-5.857,15.355,0.001,21.213
 											C82.322,328.536,86.161,330,90,330s7.678-1.464,10.607-4.394l149.999-150.004c2.814-2.813,4.394-6.628,4.394-10.606
 											C255,161.018,253.42,157.202,250.606,154.389z"
-								/>
-							</svg>
-							<span class="ml-3">Dashboard</span>
-							</a>
-						</li>
-						<li>
-							<a
-							href="#"
-							class="flex items-center pb-2 font-normal text-gray-900 rounded-lg hover:text-ccblue hover:fill-ccblue"
-							>
-							<svg
-								class="w-3 h-3 flex-shrink-0"
-								version="1.1"
-								id="Layer_1"
-								xmlns="http://www.w3.org/2000/svg"
-								xmlns:xlink="http://www.w3.org/1999/xlink"
-								x="0px"
-								y="0px"
-								viewBox="0 0 330 330"
-								style="enable-background: new 0 0 330 330"
-								xml:space="preserve"
-							>
-								<path
-								id="XMLID_222_"
-								d="M250.606,154.389l-150-149.996c-5.857-5.858-15.355-5.858-21.213,0.001
+                  />
+                </svg>
+                <span class="ml-3">Dashboard</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="flex items-center pb-2 font-normal text-gray-900 rounded-lg hover:text-ccblue hover:fill-ccblue"
+              >
+                <svg
+                  class="w-3 h-3 flex-shrink-0"
+                  version="1.1"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  x="0px"
+                  y="0px"
+                  viewBox="0 0 330 330"
+                  style="enable-background: new 0 0 330 330"
+                  xml:space="preserve"
+                >
+                  <path
+                    id="XMLID_222_"
+                    d="M250.606,154.389l-150-149.996c-5.857-5.858-15.355-5.858-21.213,0.001
 											c-5.857,5.858-5.857,15.355,0.001,21.213l139.393,139.39L79.393,304.394c-5.857,5.858-5.857,15.355,0.001,21.213
 											C82.322,328.536,86.161,330,90,330s7.678-1.464,10.607-4.394l149.999-150.004c2.814-2.813,4.394-6.628,4.394-10.606
 											C255,161.018,253.42,157.202,250.606,154.389z"
-								/>
-							</svg>
-							<span class="ml-3">Dashboard</span>
-							</a>
-						</li>
-					</ul>
-				</div>
-				<div class="space-y-3">
-					<h3 class="uppercase text-gray-900">Developers</h3>
-					<ul class="space-y-1">
-						<li>
-							<a rel="noopener noreferrer" href="#">Public API</a>
-						</li>
-						<li>
-							<a rel="noopener noreferrer" href="#">Documentation</a>
-						</li>
-						<li>
-							<a rel="noopener noreferrer" href="#">Guides</a>
-						</li>
-					</ul>
-				</div>
-				<div class="space-y-3">
-					<div class="uppercase text-gray-900">Social media</div>
-					<div class="flex justify-start space-x-3">
-						<a rel="noopener noreferrer" href="#" title="Facebook" class="flex items-center p-1">
-							<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 32 32" class="w-5 h-5 fill-current">
-								<path d="M32 16c0-8.839-7.167-16-16-16-8.839 0-16 7.161-16 16 0 7.984 5.849 14.604 13.5 15.803v-11.177h-4.063v-4.625h4.063v-3.527c0-4.009 2.385-6.223 6.041-6.223 1.751 0 3.584 0.312 3.584 0.312v3.937h-2.021c-1.984 0-2.604 1.235-2.604 2.5v3h4.437l-0.713 4.625h-3.724v11.177c7.645-1.199 13.5-7.819 13.5-15.803z"></path>
-							</svg>
-						</a>
-						<a rel="noopener noreferrer" href="#" title="Twitter" class="flex items-center p-1">
-							<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 fill-current">
-								<path d="M23.954 4.569a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.691 8.094 4.066 6.13 1.64 3.161a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.061a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.937 4.937 0 004.604 3.417 9.868 9.868 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63a9.936 9.936 0 002.46-2.548l-.047-.02z"></path>
-							</svg>
-						</a>
-						<a rel="noopener noreferrer" href="#" title="Instagram" class="flex items-center p-1">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" class="w-5 h-5 fill-current">
-								<path d="M16 0c-4.349 0-4.891 0.021-6.593 0.093-1.709 0.084-2.865 0.349-3.885 0.745-1.052 0.412-1.948 0.959-2.833 1.849-0.891 0.885-1.443 1.781-1.849 2.833-0.396 1.020-0.661 2.176-0.745 3.885-0.077 1.703-0.093 2.244-0.093 6.593s0.021 4.891 0.093 6.593c0.084 1.704 0.349 2.865 0.745 3.885 0.412 1.052 0.959 1.948 1.849 2.833 0.885 0.891 1.781 1.443 2.833 1.849 1.020 0.391 2.181 0.661 3.885 0.745 1.703 0.077 2.244 0.093 6.593 0.093s4.891-0.021 6.593-0.093c1.704-0.084 2.865-0.355 3.885-0.745 1.052-0.412 1.948-0.959 2.833-1.849 0.891-0.885 1.443-1.776 1.849-2.833 0.391-1.020 0.661-2.181 0.745-3.885 0.077-1.703 0.093-2.244 0.093-6.593s-0.021-4.891-0.093-6.593c-0.084-1.704-0.355-2.871-0.745-3.885-0.412-1.052-0.959-1.948-1.849-2.833-0.885-0.891-1.776-1.443-2.833-1.849-1.020-0.396-2.181-0.661-3.885-0.745-1.703-0.077-2.244-0.093-6.593-0.093zM16 2.88c4.271 0 4.781 0.021 6.469 0.093 1.557 0.073 2.405 0.333 2.968 0.553 0.751 0.291 1.276 0.635 1.844 1.197 0.557 0.557 0.901 1.088 1.192 1.839 0.22 0.563 0.48 1.411 0.553 2.968 0.072 1.688 0.093 2.199 0.093 6.469s-0.021 4.781-0.099 6.469c-0.084 1.557-0.344 2.405-0.563 2.968-0.303 0.751-0.641 1.276-1.199 1.844-0.563 0.557-1.099 0.901-1.844 1.192-0.556 0.22-1.416 0.48-2.979 0.553-1.697 0.072-2.197 0.093-6.479 0.093s-4.781-0.021-6.48-0.099c-1.557-0.084-2.416-0.344-2.979-0.563-0.76-0.303-1.281-0.641-1.839-1.199-0.563-0.563-0.921-1.099-1.197-1.844-0.224-0.556-0.48-1.416-0.563-2.979-0.057-1.677-0.084-2.197-0.084-6.459 0-4.26 0.027-4.781 0.084-6.479 0.083-1.563 0.339-2.421 0.563-2.979 0.276-0.761 0.635-1.281 1.197-1.844 0.557-0.557 1.079-0.917 1.839-1.199 0.563-0.219 1.401-0.479 2.964-0.557 1.697-0.061 2.197-0.083 6.473-0.083zM16 7.787c-4.541 0-8.213 3.677-8.213 8.213 0 4.541 3.677 8.213 8.213 8.213 4.541 0 8.213-3.677 8.213-8.213 0-4.541-3.677-8.213-8.213-8.213zM16 21.333c-2.948 0-5.333-2.385-5.333-5.333s2.385-5.333 5.333-5.333c2.948 0 5.333 2.385 5.333 5.333s-2.385 5.333-5.333 5.333zM26.464 7.459c0 1.063-0.865 1.921-1.923 1.921-1.063 0-1.921-0.859-1.921-1.921 0-1.057 0.864-1.917 1.921-1.917s1.923 0.86 1.923 1.917z"></path>
-							</svg>
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="py-6 text-sm text-center text-gray-600">© 1968 Company Co. All rights reserved.</div>
-	</footer>
+                  />
+                </svg>
+                <span class="ml-3">Dashboard</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="space-y-3">
+          <h3 class="tracking-wide uppercase text-gray-900 pb-3">
+            Холбоо барих
+          </h3>
+          <ul class="space-y-1">
+            <li
+              class="flex items-center pb-2 font-normal text-gray-900 hover:text-ccblue hover:fill-ccblue"
+            >
+              <svg
+                class="w-4 h-4 flex-shrink-0"
+                version="1.1"
+                id="Capa_1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px"
+                y="0px"
+                viewBox="0 0 264.018 264.018"
+                style="enable-background: new 0 0 264.018 264.018"
+                xml:space="preserve"
+              >
+                <g>
+                  <path
+                    d="M132.009,0c-42.66,0-77.366,34.706-77.366,77.366c0,11.634,2.52,22.815,7.488,33.24c0.1,0.223,0.205,0.442,0.317,0.661
+		l58.454,113.179c2.146,4.154,6.431,6.764,11.106,6.764c4.676,0,8.961-2.609,11.106-6.764l58.438-113.148
+		c0.101-0.195,0.195-0.392,0.285-0.591c5.001-10.455,7.536-21.67,7.536-33.341C209.375,34.706,174.669,0,132.009,0z
+		 M132.009,117.861c-22.329,0-40.495-18.166-40.495-40.495c0-22.328,18.166-40.494,40.495-40.494s40.495,18.166,40.495,40.494
+		C172.504,99.695,154.338,117.861,132.009,117.861z"
+                  />
+                  <path
+                    d="M161.81,249.018h-59.602c-4.143,0-7.5,3.357-7.5,7.5c0,4.143,3.357,7.5,7.5,7.5h59.602c4.143,0,7.5-3.357,7.5-7.5
+		C169.31,252.375,165.952,249.018,161.81,249.018z"
+                  />
+                </g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+              </svg>
+              <span class="ml-3">Хаяг</span>
+            </li>
+            <li
+              class="flex items-center pb-2 font-normal text-gray-900 hover:text-ccblue hover:fill-ccblue"
+            >
+              <svg
+                class="w-4 h-4 flex-shrink-0"
+                version="1.1"
+                id="Layer_1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px"
+                y="0px"
+                viewBox="0 0 330.001 330.001"
+                style="enable-background: new 0 0 330.001 330.001"
+                xml:space="preserve"
+              >
+                <g id="XMLID_348_">
+                  <path
+                    id="XMLID_350_"
+                    d="M173.871,177.097c-2.641,1.936-5.756,2.903-8.87,2.903c-3.116,0-6.23-0.967-8.871-2.903L30,84.602
+		L0.001,62.603L0,275.001c0.001,8.284,6.716,15,15,15L315.001,290c8.285,0,15-6.716,15-14.999V62.602l-30.001,22L173.871,177.097z"
+                  />
+                  <polygon
+                    id="XMLID_351_"
+                    points="165.001,146.4 310.087,40.001 19.911,40 	"
+                  />
+                </g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+              </svg>
+              <a class="ml-3" href="mailto:mgh@gmail.com">mgh@gmail.com </a>
+            </li>
+            <li
+              class="flex items-center pb-2 font-normal text-gray-900 hover:text-ccblue hover:fill-ccblue"
+            >
+              <svg
+                class="w-4 h-4 flex-shrink-0"
+                version="1.1"
+                id="Capa_1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px"
+                y="0px"
+                viewBox="0 0 53.942 53.942"
+                style="enable-background: new 0 0 53.942 53.942"
+                xml:space="preserve"
+              >
+                <path
+                  d="M53.364,40.908c-2.008-3.796-8.981-7.912-9.288-8.092c-0.896-0.51-1.831-0.78-2.706-0.78c-1.301,0-2.366,0.596-3.011,1.68
+	c-1.02,1.22-2.285,2.646-2.592,2.867c-2.376,1.612-4.236,1.429-6.294-0.629L17.987,24.467c-2.045-2.045-2.233-3.928-0.632-6.291
+	c0.224-0.309,1.65-1.575,2.87-2.596c0.778-0.463,1.312-1.151,1.546-1.995c0.311-1.123,0.082-2.444-0.652-3.731
+	c-0.173-0.296-4.291-7.27-8.085-9.277c-0.708-0.375-1.506-0.573-2.306-0.573c-1.318,0-2.558,0.514-3.49,1.445L4.7,3.986
+	c-4.014,4.013-5.467,8.562-4.321,13.52c0.956,4.132,3.742,8.529,8.282,13.068l14.705,14.705c5.746,5.746,11.224,8.66,16.282,8.66
+	c0,0,0,0,0.001,0c3.72,0,7.188-1.581,10.305-4.698l2.537-2.537C54.033,45.163,54.383,42.833,53.364,40.908z"
+                />
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+              </svg>
+              <a class="ml-3" href="tel:+97699081812">+976 99081812 </a>
+            </li>
+          </ul>
+        </div>
+        <div class="space-y-1">
+          <h3 class="tracking-wide uppercase text-gray-900 pb-3">
+            Сошиал холбоос
+          </h3>
+          <div class="flex justify-start space-x-3">
+            <a
+              rel="noopener noreferrer"
+              href="#"
+              title="Facebook"
+              class="flex items-center p-1 hover:text-ccblue hover:fill-ccblue"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                viewBox="0 0 32 32"
+                class="w-5 h-5 fill-current"
+              >
+                <path
+                  d="M32 16c0-8.839-7.167-16-16-16-8.839 0-16 7.161-16 16 0 7.984 5.849 14.604 13.5 15.803v-11.177h-4.063v-4.625h4.063v-3.527c0-4.009 2.385-6.223 6.041-6.223 1.751 0 3.584 0.312 3.584 0.312v3.937h-2.021c-1.984 0-2.604 1.235-2.604 2.5v3h4.437l-0.713 4.625h-3.724v11.177c7.645-1.199 13.5-7.819 13.5-15.803z"
+                ></path>
+              </svg>
+              <span class="ml-3">Facebook page</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="py-6 text-sm text-center text-gray-600">
+      © 2022 Mongolian Association of Hydrogeologists. All rights reserved.
+    </div>
+  </footer>
 </template>
