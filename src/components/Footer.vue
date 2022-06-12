@@ -20,7 +20,7 @@
           </a>
         </div>
         <div class="space-y-3">
-          <h3 class="tracking-wide uppercase text-gray-900 pb-3">Үндсэн цэс</h3>
+          <h3 class="tracking-wide uppercase text-gray-900 pb-3">{{ $t("site menu") }}</h3>
           <ul class="space-y-1">
             <li>
               <a
@@ -47,7 +47,7 @@
 											C255,161.018,253.42,157.202,250.606,154.389z"
                   />
                 </svg>
-                <span class="ml-3">Dashboard</span>
+                <span class="ml-3">{{ $t("home") }}</span>
               </a>
             </li>
             <li>
@@ -75,7 +75,7 @@
 											C255,161.018,253.42,157.202,250.606,154.389z"
                   />
                 </svg>
-                <span class="ml-3">Dashboard</span>
+                <span class="ml-3">{{ $t("about") }}</span>
               </a>
             </li>
             <li>
@@ -103,7 +103,7 @@
 											C255,161.018,253.42,157.202,250.606,154.389z"
                   />
                 </svg>
-                <span class="ml-3">Dashboard</span>
+                <span class="ml-3">{{ $t("activity") }}</span>
               </a>
             </li>
             <li>
@@ -131,7 +131,7 @@
 											C255,161.018,253.42,157.202,250.606,154.389z"
                   />
                 </svg>
-                <span class="ml-3">Dashboard</span>
+                <span class="ml-3">{{ $t("laws") }}</span>
               </a>
             </li>
             <li>
@@ -159,14 +159,14 @@
 											C255,161.018,253.42,157.202,250.606,154.389z"
                   />
                 </svg>
-                <span class="ml-3">Dashboard</span>
+                <span class="ml-3"> {{ $t("media") }}</span>
               </a>
             </li>
           </ul>
         </div>
         <div class="space-y-3">
           <h3 class="tracking-wide uppercase text-gray-900 pb-3">
-            Холбоо барих
+             {{ $t("contact_us") }}
           </h3>
           <ul class="space-y-1">
             <li
@@ -304,7 +304,7 @@
         </div>
         <div class="space-y-1">
           <h3 class="tracking-wide uppercase text-gray-900 pb-3">
-            Сошиал холбоос
+            {{ $t("links") }}
           </h3>
           <div class="flex justify-start space-x-3">
             <a

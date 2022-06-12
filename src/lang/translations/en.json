@@ -1,9 +1,9 @@
 {
-    "media": "Media",
+    "media": "News",
     "home": "Home",
     "about": "About association",
     "introduction": "Introduction",
-    "charter": "Charter of MAH",
+    "rule": "Charter of MAH",
     "history": "History of MAH",
     "board": "Board of MAH",
     "activity": "Activity",
@@ -15,7 +15,9 @@
     "rule": "Rule",
     "recommendation": "Recommendation",
     "contact_us": "Contact us",
-    "membership": "Membership"
+    "membership": "Membership",
+    "site menu": "Site menu",
+    "links": "Social links"
 
 
 
