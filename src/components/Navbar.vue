@@ -33,7 +33,7 @@
             <ul class="flex items-center justify-between gap-5 text-sm">
               <li>
                 <a class="text-gray-500 transition hover:text-ccblue" href="/">
-                  Нүүр
+                  {{ $t("home") }}
                 </a>
               </li>
 
@@ -44,7 +44,7 @@
                       href="#"
                       class="text-gray-500 hover:text-ccblue py-2 rounded-md"
                     >
-                      Холбооны тухай
+                      {{ $t("about") }}
                     </a>
                   </MenuButton>
                 </div>
