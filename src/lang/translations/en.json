@@ -1,7 +1,30 @@
 {
     "media": "Media",
     "home": "Home",
-    "about": "About association"
+    "about": "About association",
+    "introduction": "Introduction",
+    "charter": "Charter of MAH",
+    "history": "History of MAH",
+    "board": "Board of MAH",
+    "activity": "Activity",
+    "list of qualified and consulting hydrogeologists": "List of qualified and consulting hydrogeologists",
+    "training": "Training",
+    "events": "Event",
+    "laws": "Laws",
+    "law": "Law",
+    "rule": "Rule",
+    "recommendation": "Recommendation",
+    "contact_us": "Contact us",
+    "membership": "Membership"
+
+
+
+
+
+
+
+
+
 
 
 }

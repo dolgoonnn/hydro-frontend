@@ -65,7 +65,7 @@
                           <a
                             class="text-gray-500 hover:text-ccblue block px-4 py-2 text-sm"
                           >
-                            Танилцуулга
+                            {{ $t("introduction") }}
                           </a>
                         </router-link>
                       </MenuItem>
@@ -74,7 +74,7 @@
                           <a
                             class="text-gray-500 hover:text-ccblue block px-4 py-2 text-sm"
                           >
-                            Холбооны дүрэм
+                            {{ $t("charter") }}
                           </a>
                         </router-link>
                       </MenuItem>
@@ -83,7 +83,7 @@
                           <a
                             class="text-gray-500 hover:text-ccblue block px-4 py-2 text-sm"
                           >
-                            Товч түүх
+                            {{ $t("history") }}
                           </a>
                         </router-link>
                       </MenuItem>
@@ -92,7 +92,7 @@
                           <a
                             class="text-gray-500 hover:text-ccblue block px-4 py-2 text-sm"
                           >
-                            Удирдах зөвлөл
+                            {{ $t("board") }}
                           </a>
                         </router-link>
                       </MenuItem>
@@ -107,8 +107,9 @@
                     <a
                       href="#"
                       class="text-gray-500 hover:text-ccblue py-2 rounded-md"
-                      >Үйл ажиллагаа</a
-                    >
+                     
+                    > {{ $t("activity") }}
+                    </a>
                   </MenuButton>
                 </div>
                 <transition
@@ -128,7 +129,7 @@
                           <a
                             class="text-gray-500 hover:text-ccblue block px-4 py-2 text-sm"
                           >
-                            Мэргэшсэн болон зөвлөх гидрогеологчдын жагсаалт
+                            {{ $t("list of qualified and consulting hydrogeologists") }}
                           </a>
                         </router-link>
                       </MenuItem>
@@ -137,8 +138,9 @@
                           <a
                             class="text-gray-500 hover:text-ccblue block px-4 py-2 text-sm"
                           >
-                            Гишүүнчлэл
-                          </a>
+                            {{ $t("training") }}
+                    </a>
+                        
                         </router-link>
                       </MenuItem>
                       <MenuItem>
@@ -146,8 +148,9 @@
                           <a
                             class="text-gray-500 hover:text-ccblue block px-4 py-2 text-sm"
                           >
-                            Арга хэмжээ
-                          </a>
+                            {{ $t("events") }}
+                    </a>
+            
                         </router-link>
                       </MenuItem>
                     </div>
@@ -162,7 +165,7 @@
                       href="#"
                       class="text-gray-500 hover:text-ccblue py-2 rounded-md"
                     >
-                      Хууль, эрх зүй
+                      {{ $t("laws") }}
                     </a>
                   </MenuButton>
                 </div>
@@ -183,7 +186,7 @@
                           <a
                             class="text-gray-500 hover:text-ccblue block px-4 py-2 text-sm"
                           >
-                            Хууль
+                            {{ $t("law") }}
                           </a>
                         </router-link>
                       </MenuItem>
@@ -192,7 +195,7 @@
                           <a
                             class="text-gray-500 hover:text-ccblue block px-4 py-2 text-sm"
                           >
-                            Журам
+                            {{ $t("rule") }}
                           </a>
                         </router-link>
                       </MenuItem>
@@ -201,7 +204,7 @@
                           <a
                             class="text-gray-500 hover:text-ccblue block px-4 py-2 text-sm"
                           >
-                            Аргачилсан зөвлөмж
+                            {{ $t("recommendation") }}
                           </a>
                         </router-link>
                       </MenuItem>
@@ -224,7 +227,7 @@
                   class="block px-5 py-2.5 text-sm font-medium text-white bg-ccblue hover:bg-chblue transition delay-75 rounded-md"
                   href="/"
                 >
-                  Холбоо барих
+                  {{ $t("contact_us") }}
                 </a>
               </router-link>
               <router-link to="/membership">
@@ -232,7 +235,7 @@
                   class="hidden sm:block px-5 py-2.5 text-sm font-medium text-ccblue bg-gray-100 rounded-md hover:text-chblue delay-75 transition"
                   href="/"
                 >
-                  Гишүүн болох
+                  {{ $t("membership") }}
                 </a>
               </router-link>
             </div>
@@ -278,7 +281,7 @@
                         <a
                           class="text-gray-500 hover:text-ccblue block px-4 py-2 text-sm"
                         >
-                          Нүүр
+                          {{ $t("home") }}
                         </a>
                       </router-link>
                     </MenuItem>
@@ -287,7 +290,7 @@
                         <a
                           class="text-gray-500 hover:text-ccblue block px-4 py-2 text-sm"
                         >
-                          Танилцуулга
+                          {{ $t("introduction") }}
                         </a>
                       </router-link>
                     </MenuItem>
@@ -296,7 +299,17 @@
                         <a
                           class="text-gray-500 hover:text-ccblue block px-4 py-2 text-sm"
                         >
-                          Холбооны дүрэм
+                          {{ $t("charter") }}
+                        </a>
+                      </router-link>
+                    </MenuItem>
+                  
+                    <MenuItem>
+                      <router-link to="/">
+                        <a
+                          class="text-gray-500 hover:text-ccblue block px-4 py-2 text-sm"
+                        >
+                          {{ $t("board") }}
                         </a>
                       </router-link>
                     </MenuItem>
@@ -305,25 +318,7 @@
                         <a
                           class="text-gray-500 hover:text-ccblue block px-4 py-2 text-sm"
                         >
-                          Товч дүрэм
-                        </a>
-                      </router-link>
-                    </MenuItem>
-                    <MenuItem>
-                      <router-link to="/">
-                        <a
-                          class="text-gray-500 hover:text-ccblue block px-4 py-2 text-sm"
-                        >
-                          Удирдах зөвлөл
-                        </a>
-                      </router-link>
-                    </MenuItem>
-                    <MenuItem>
-                      <router-link to="/">
-                        <a
-                          class="text-gray-500 hover:text-ccblue block px-4 py-2 text-sm"
-                        >
-                          Мэргэшсэн гидрогеологичдын жагсаалт
+                          {{ $t("list of qualified and consulting hydrogeologists") }}
                         </a>
                       </router-link>
                     </MenuItem>
@@ -332,7 +327,7 @@
                         <a
                           class="text-gray-500 hover:text-ccblue block px-4 py-2 text-sm"
                         >
-                          Гишүүншчлэл
+                          {{ $t("membership") }}
                         </a>
                       </router-link>
                     </MenuItem>
@@ -341,7 +336,7 @@
                         <a
                           class="text-gray-500 hover:text-ccblue block px-4 py-2 text-sm"
                         >
-                          Хууль
+                          {{ $t("laws") }}
                         </a>
                       </router-link>
                     </MenuItem>
@@ -350,19 +345,11 @@
                         <a
                           class="text-gray-500 hover:text-ccblue block px-4 py-2 text-sm"
                         >
-                          Журам
+                          {{ $t("rule") }}
                         </a>
                       </router-link>
                     </MenuItem>
-                    <MenuItem>
-                      <router-link to="/">
-                        <a
-                          class="text-gray-500 hover:text-ccblue block px-4 py-2 text-sm"
-                        >
-                          Холбооны дүрэм
-                        </a>
-                      </router-link>
-                    </MenuItem>
+                    
                   </div>
                 </MenuItems>
               </transition>
