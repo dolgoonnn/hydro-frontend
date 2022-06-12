@@ -1,7 +1,7 @@
 <template>
 	<section class="p-6 dark:bg-cindigo dark:text-gray-100">
 		<div class="container p-4 mx-auto text-center">
-			<h2 class="text-4xl font-bold">Trusted by the industry leaders</h2>
+			<h2 class="text-4xl font-bold">{{ $t("partners") }}</h2>
 		</div>
 		<div class="container flex flex-wrap justify-center mx-auto dark:text-gray-400">
 			<div class="flex justify-center w-1/2 p-6 align-middle md:w-1/3 xl:w-1/4">

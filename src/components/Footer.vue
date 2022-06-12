@@ -20,7 +20,7 @@
           </a>
         </div>
         <div class="space-y-3">
-          <h3 class="tracking-wide uppercase text-gray-900 pb-3">{{ $t("site menu") }}</h3>
+          <h3 class="tracking-wide uppercase text-gray-900 pb-3">{{ $t("category") }}</h3>
           <ul class="space-y-1">
             <li>
               <a

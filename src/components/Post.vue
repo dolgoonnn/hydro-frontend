@@ -2,7 +2,7 @@
 
     <div class="lg:col-span-2 xs:col-span-3 md:col-span-2 pt-8">
         <h2 class="pb-8 pl-4 text-2xl font-semibold">
-                Мэдээ
+                {{ $t("media") }}
             </h2>
 
         <div class="grid justify-center gap-6 sm:grid-cols-1 lg:grid-cols-2">

@@ -3,7 +3,7 @@
     "home": "Home",
     "about": "About association",
     "introduction": "Introduction",
-    "rule": "Charter of MAH",
+    "charter": "Charter of MAH",
     "history": "History of MAH",
     "board": "Board of MAH",
     "activity": "Activity",
@@ -16,8 +16,9 @@
     "recommendation": "Recommendation",
     "contact_us": "Contact us",
     "membership": "Membership",
-    "site menu": "Site menu",
-    "links": "Social links"
+    "category": "Category",
+    "links": "Social links",
+    "partners": "Partners"
 
 
 

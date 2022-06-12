@@ -44,7 +44,7 @@
     </form>
 
     <h2 class="pb-8 text-2xl font-semibold">
-      Ангилалууд
+      {{ $t("category") }}
     </h2>
     <aside class="w-full" aria-label="Sidebar">
       <div class="overflow-y-auto py-4 px-3 bg-gray-50">
@@ -74,7 +74,7 @@
                               C255,161.018,253.42,157.202,250.606,154.389z"
                 />
               </svg>
-              <span class="ml-3">Танилцуулга</span>
+              <span class="ml-3">{{ $t("introduction") }}</span>
             </a>
           </li>
           <li>
@@ -102,7 +102,7 @@
                               C255,161.018,253.42,157.202,250.606,154.389z"
                 />
               </svg>
-              <span class="ml-3">Холбооны дүрэм</span>
+              <span class="ml-3">{{ $t("charter") }}</span>
             </a>
           </li>
           <li>
@@ -130,7 +130,7 @@
                               C255,161.018,253.42,157.202,250.606,154.389z"
                 />
               </svg>
-              <span class="ml-3">Гишүүнчлэл</span>
+              <span class="ml-3">{{ $t("membership") }}</span>
             </a>
           </li>
           <li>
@@ -158,7 +158,7 @@
                               C255,161.018,253.42,157.202,250.606,154.389z"
                 />
               </svg>
-              <span class="ml-3">Хууль</span>
+              <span class="ml-3">{{ $t("laws") }}</span>
             </a>
           </li>
           <li>
@@ -186,7 +186,7 @@
                               C255,161.018,253.42,157.202,250.606,154.389z"
                 />
               </svg>
-              <span class="ml-3">Журам</span>
+              <span class="ml-3">{{ $t("rule") }}</span>
             </a>
           </li>
           <li>
@@ -214,7 +214,7 @@
                               C255,161.018,253.42,157.202,250.606,154.389z"
                 />
               </svg>
-              <span class="ml-3">Арга хэмжээ</span>
+              <span class="ml-3">{{ $t("events") }}</span>
             </a>
           </li>
           <li>
@@ -242,7 +242,7 @@
                               C255,161.018,253.42,157.202,250.606,154.389z"
                 />
               </svg>
-              <span class="ml-3">Мэдээ</span>
+              <span class="ml-3">{{ $t("media") }}</span>
             </a>
           </li>
         </ul>
