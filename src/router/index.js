@@ -6,6 +6,9 @@ import NotFound from '../pages/NotFound.vue'
 import Membership from '../pages/Membership.vue'
 import ContactUs from '../pages/ContactUs.vue'
 import Law from '../pages/Law.vue'
+import Login from '../pages/login.vue'
+import Admin from '../pages/Admin.vue'
+
 // import { i18n } from '../main'
 
 const routes = [
@@ -33,6 +36,16 @@ const routes = [
     path: '/law',
     name: 'Law',
     component: Law
+  },
+  {
+    path: '/login',
+    name: 'Login',
+    component: Login
+  },
+  {
+    path: '/admin',
+    name: 'Admin',
+    component: Admin
   },
 
 
