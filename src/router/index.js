@@ -8,7 +8,7 @@ import ContactUs from '../pages/ContactUs.vue'
 import Law from '../pages/Law.vue'
 import Login from '../pages/login.vue'
 import Admin from '../pages/Admin.vue'
-
+import News from '../pages/News.vue'
 // import { i18n } from '../main'
 
 const routes = [
@@ -47,7 +47,11 @@ const routes = [
     name: 'Admin',
     component: Admin
   },
-
+  {
+    path: '/news',
+    name: 'News',
+    component: News
+  },
 
 
 ]
